@@ -1,1 +1,1 @@
-# Deep-Learning-Algorithms-for-financial-time-serie-modeling-
+# Deep Learning Algorithms for Financial Time Series Modeling
