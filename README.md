@@ -5,4 +5,4 @@ In particular I will propose 3 models:
 - Convolutional Neural Network (CNN)
 - CNN-LSTM LOB 
 For specifics refer to the folders.
-
+The descriptions of the models are in the sixth chapter of my [thesis](https://drive.google.com/file/d/15veOotQhIFaIkadi-HX6pp7pUjZ5SQ74/view?usp=sharing).
