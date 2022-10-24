@@ -6,5 +6,7 @@ In particular I will propose 3 models:
 - CNN-LSTM LOB 
 
 For specifics refer to the folders.
+
 The descriptions of the models are in the sixth chapter of my [thesis](https://drive.google.com/file/d/15veOotQhIFaIkadi-HX6pp7pUjZ5SQ74/view?usp=sharing).
+
 The two dataset used in the esperiments, that are LOBSTER and FI-2010, are accessible in the folder.
