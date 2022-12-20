@@ -1,4 +1,4 @@
-# Deep Learning Algorithms for Financial Time Series Forecasting
+# Deep Learning Models for Financial Time Series Forecasting
 In this work I will present the implementation of the models of my bachelor's thesis. They are three deep learning models, for the prediction of financial markets through the modeling of financial time series.
 In particular I will propose these models:
 - Long Short Term Memory (LSTM) 
