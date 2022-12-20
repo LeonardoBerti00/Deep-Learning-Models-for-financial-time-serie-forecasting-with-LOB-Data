@@ -7,7 +7,7 @@ In particular I will propose these models:
 
 For specifics refer to the folders.
 
-The descriptions of the models, of the setup and of the results are in the sixth chapter of my [thesis](https://drive.google.com/file/d/1XV1dv1LMLhbRa4Sqje2VDgv-HbcW_QfD/view?usp=sharing).
+The descriptions of the models, of the setup and of the results are in the sixth chapter of my [thesis](https://drive.google.com/file/d/1FU3wgiW-4SVEnE17ZuyMGbsSn24YFUc-/view?usp=sharing).
 
 I have uploaded normalized (only the prices) [LOBSTER dataset](https://lobsterdata.com/info/DataSamples.php) (in particular I have used the LOB file with 10 levels) in the folder dataset.
 
