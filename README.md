@@ -18,4 +18,4 @@ The LOBSTER dataset, contains the LOB of a trading day (2012/06/21) of the follo
 The labeling method is the one proposed by Tsantekidis et al. in "Forecasting Stock Prices from the Limit Order
 Book using Convolutional Neural Networks". 
 The method exploits the percentage change $l_t$ of the average of the $k$ (horizon) mid-prices preceding and succeeding
-$t$ to decide the direction, once a threshold $\alpha$ is decided, if $l_t > \alpha$ then it will be considered as an up trend with label $0$, if $l_t < -\alpha$ then it will be considered as a down trend with label $1$, while if $l_t$ is included in the interval $[-\alpha$, \alpha]$ it will be considered as stationary and therefore without trend, with label 2.
+$t$ to decide the direction, once a threshold $\alpha$ is decided, if $l_t > \alpha$ then it will be considered as an up trend with label $0$, if $l_t < -\alpha$ then it will be considered as a down trend with label $1$, while if $l_t$ is included in the interval $[-\alpha, \alpha]$ it will be considered as stationary and therefore without trend, with label 2.
