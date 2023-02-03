@@ -7,7 +7,7 @@ In particular I will propose these models:
 
 All the hyperparameters were optimized with random search.
 
-In every notebook is proposed all the machine learning pipeline, starting from the loading of the dataset, passing from the labeling method, creation of the datasets and dataloaders, ending with the train, validation and test. For specifics refer to the folders.
+In every notebooks is proposed all the machine learning pipeline, starting from the loading of the dataset, passing from the labeling method, creation of the datasets and dataloaders, ending with the train, validation and test. For specifics refer to the folders.
 
 I have uploaded the normalized [LOBSTER dataset](https://lobsterdata.com/info/DataSamples.php) (in particular I have used the LOB file with 10 levels) in the folder dataset.
 
