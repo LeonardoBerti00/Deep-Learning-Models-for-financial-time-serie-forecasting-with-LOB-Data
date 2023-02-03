@@ -9,4 +9,20 @@ For specifics refer to the folders.
 
 I have uploaded the normalized [LOBSTER dataset](https://lobsterdata.com/info/DataSamples.php) (in particular I have used the LOB file with 10 levels) in the folder dataset.
 
+# Usage
+
 To run the code you just have to unzip the dataset and change the data path, then the notebook will do the rest, including the training and testing.
+
+# Experiment Setup
+The LOBSTER dataset, which you can find on \textit{lobsterdata.com}, contains the LOB of a trading day (2012/06/21) of the following stocks: Apple, Microsoft, Intel, Amazon and Google, all very liquid stocks; the total samples are 2,110,860. 
+The labeling method is the one proposed by Tsantekidis et al. in "Forecasting Stock Prices from the Limit Order
+Book using Convolutional Neural Networks". 
+First, let $m\_$ be the average of the $k$ mid prices preceding $t$:
+\[
+m_-(t) = \frac{1}{k} \sum_{i = 0}^k p_{t-i}
+\]
+The label will depend on the percentage change between mid-prices:
+\[
+l_t = \frac{m_+(t) - m_-(t)}{m_-(t)}
+\]
+The method exploits the percentage change ($l_t$) of the mid-price to decide the direction, once a threshold $\alpha$ is decided, if $l_t > \alpha$ ÿ then it will be considered as an up trend with label $0$, if $l_t < -\alpha$ then it will be considered as a down trend with label $1$, while if $-\alpha \le l_t \le \alpha $ it will be considered as stationary and therefore without trend, with label 2.
