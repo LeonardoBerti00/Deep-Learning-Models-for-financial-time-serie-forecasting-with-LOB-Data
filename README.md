@@ -17,7 +17,7 @@ To run the code you just have to unzip the dataset and change the data path, the
 The LOBSTER dataset, which you can find on \textit{lobsterdata.com}, contains the LOB of a trading day (2012/06/21) of the following stocks: Apple, Microsoft, Intel, Amazon and Google, all very liquid stocks; the total samples are 2,110,860. 
 The labeling method is the one proposed by Tsantekidis et al. in "Forecasting Stock Prices from the Limit Order
 Book using Convolutional Neural Networks". 
-First, let $m\_$ be the average of the $k$ mid prices preceding $t$:
+First, let $m_$ be the average of the $k$ mid prices preceding $t$:
 \[
 m_-(t) = \frac{1}{k} \sum_{i = 0}^k p_{t-i}
 \]
