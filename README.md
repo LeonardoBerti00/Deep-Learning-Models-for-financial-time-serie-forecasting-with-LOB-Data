@@ -12,11 +12,7 @@ In every notebooks is proposed all the machine learning pipeline, starting from 
 I have uploaded the normalized [LOBSTER dataset](https://lobsterdata.com/info/DataSamples.php) (in particular I have used the LOB file with 10 levels) in the folder dataset.
 
 # Usage
-
 To run the code you just have to unzip the dataset and change the data path, then the notebook will do the rest, including the training and testing.
-
-# Results
-![alt text](https://github.com//image.jpg?raw=true)
 
 # Experiment Setup
 The LOBSTER dataset, contains the LOB of a trading day (2012/06/21) of the following stocks: Apple, Microsoft, Intel, Amazon and Google, all very liquid stocks; the total samples are 2,110,860. 
@@ -25,4 +21,6 @@ Book using Convolutional Neural Networks".
 The method exploits the percentage change $l_t$ of the average of the $k$ (horizon) mid-prices preceding and succeeding
 $t$ to decide the direction, once a threshold $\alpha$ is decided, if $l_t > \alpha$ then it will be considered as an up trend with label $0$, if $l_t < -\alpha$ then it will be considered as a down trend with label $1$, while if $l_t$ is included in the interval $[-\alpha, \alpha]$ it will be considered as stationary and therefore without trend, with label 2.
 
-
+# Results
+These are the results setting the horizon to 50. 
+![alt text](https://github.com/LeonardoBerti07/Deep-Learning-Models-for-financial-time-serie-forecasting-with-LOB-Data/blob/main/results.png)
