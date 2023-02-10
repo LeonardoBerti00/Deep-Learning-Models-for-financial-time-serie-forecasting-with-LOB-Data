@@ -1,5 +1,5 @@
 # Deep Learning Models for Financial Time Series Forecasting
-In this work I will present the implementation of the models of my bachelor's thesis, that I've used during the experiments. They are three deep learning models, for the prediction of mid-price movements using limit order book data.
+In this work I will present the implementation of the models that I've used to do the experiments for my bachelor's thesis. They are three deep learning models, for the prediction of mid-price movements using limit order book data.
 In particular I will propose these models:
 - Long Short Term Memory (LSTM):  the architecture used has a single layer and a hidden size of 64. The reason for the simplicity of the architecture is that with a greater amount of layers and a greater hidden size the model tends to go in overfitting.
 - Deep Convolutional Neural Network (DCNN): the structure is made up of 15 convolutional layer and 3 fully connected layer, I did not find necessary pooling layers since the input dimensions were not particularly large and would have lowered the performance. The activation function used is LeakyReLU.
