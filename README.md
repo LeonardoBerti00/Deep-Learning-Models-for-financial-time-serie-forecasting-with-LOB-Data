@@ -23,4 +23,5 @@ $t$ to decide the direction, once a threshold $\alpha$ is decided, if $l_t > \al
 
 # Results
 These are the results setting the horizon to 50. 
+
 ![alt text](https://github.com/LeonardoBerti07/Deep-Learning-Models-for-financial-time-serie-forecasting-with-LOB-Data/blob/main/results.png)
